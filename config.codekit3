@@ -80,8 +80,8 @@
       "ft" : 16,
       "ma" : 2,
       "oA" : 0,
-      "oAP" : "\/dist\/css\/main-min.css",
-      "oF" : 0,
+      "oAP" : "\/dist\/css\/main.css",
+      "oF" : 2,
       "pg" : 0
     },
     "\/css\/normalize.css" : {
@@ -92,8 +92,8 @@
       "ft" : 16,
       "ma" : 2,
       "oA" : 0,
-      "oAP" : "\/dist\/css\/normalize-min.css",
-      "oF" : 0,
+      "oAP" : "\/dist\/css\/normalize.css",
+      "oF" : 2,
       "pg" : 0
     },
     "\/css\/style.css" : {
@@ -104,15 +104,9 @@
       "ft" : 16,
       "ma" : 2,
       "oA" : 0,
-      "oAP" : "\/dist\/css\/style-min.css",
-      "oF" : 0,
+      "oAP" : "\/dist\/css\/style.css",
+      "oF" : 2,
       "pg" : 0
-    },
-    "\/dist" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/dist\/dist",
-      "oF" : 0
     },
     "\/favicon-16x16.png" : {
       "ft" : 32768,
@@ -375,7 +369,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 643357514.82381403
+    "lastBuiltDate" : 643357708.77944601
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
