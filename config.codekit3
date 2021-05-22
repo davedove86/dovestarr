@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34018",
   "files" : {
+    "\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/.gitignore",
+      "oF" : 0
+    },
     "\/404.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -68,9 +76,9 @@
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
-      "co" : 0,
+      "co" : 2,
       "ft" : 16,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 0,
       "oAP" : "\/dist\/css\/main-min.css",
       "oF" : 0,
@@ -79,10 +87,10 @@
     "\/css\/normalize.css" : {
       "aP" : 1,
       "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
+      "ci" : 1,
+      "co" : 2,
       "ft" : 16,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 0,
       "oAP" : "\/dist\/css\/normalize-min.css",
       "oF" : 0,
@@ -92,9 +100,9 @@
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
-      "co" : 0,
+      "co" : 2,
       "ft" : 16,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 0,
       "oAP" : "\/dist\/css\/style-min.css",
       "oF" : 0,
@@ -250,7 +258,7 @@
     "\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 2,
       "oA" : 0,
       "oAP" : "\/dist\/index.html",
       "oF" : 0
@@ -367,7 +375,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 643356647.49511302
+    "lastBuiltDate" : 643357514.82381403
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -661,7 +669,7 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 1,
+    "buildEnvironment" : 0,
     "buildFolderActive" : 1,
     "buildFolderName" : "dist",
     "cleanBuild" : 1,
@@ -806,7 +814,7 @@
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::development"
+      "NODE_ENV:::production"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
