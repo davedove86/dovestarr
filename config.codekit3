@@ -108,6 +108,12 @@
       "oF" : 2,
       "pg" : 0
     },
+    "\/dist" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/dist\/dist",
+      "oF" : 0
+    },
     "\/favicon-16x16.png" : {
       "ft" : 32768,
       "iS" : 498,
@@ -213,6 +219,315 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/home\/data-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/data-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/home\/disney-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 40645,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/home\/disney-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/home\/disney-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 37184,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/home\/disney-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/home\/disney-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 142033,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/home\/disney-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/home\/disney-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/disney-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/home\/email-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/email-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/home\/facebook-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/facebook-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/home\/gosh-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/gosh-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/home\/instagram.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/instagram.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/home\/lab-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/lab-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/home\/lighting-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/lighting-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/home\/nci.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/nci.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/home\/NICEIC.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/NICEIC.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/home\/phone-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/phone-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/home\/portfolio-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 157753,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/home\/portfolio-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/home\/portfolio-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 114406,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/home\/portfolio-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/home\/portfolio-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 105491,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/home\/portfolio-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/home\/portfolio-4.jpg" : {
+      "ft" : 16384,
+      "iS" : 115861,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/home\/portfolio-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/home\/portfolio-5.jpg" : {
+      "ft" : 16384,
+      "iS" : 131506,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/home\/portfolio-5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/home\/portfolio-6.jpg" : {
+      "ft" : 16384,
+      "iS" : 107697,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/home\/portfolio-6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/home\/security-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/security-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/home\/which.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/which.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/home\/wonderlab-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 102338,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/home\/wonderlab-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/home\/wonderlab-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 102485,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/home\/wonderlab-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/home\/wonderlab-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 164608,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/home\/wonderlab-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/home\/wonderlab-4.jpg" : {
+      "ft" : 16384,
+      "iS" : 319417,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/home\/wonderlab-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/home\/wonderlab-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/home\/wonderlab-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/kerzner-sm.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -232,6 +547,30 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/includes\/certificate-banner.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/includes\/certificate-banner.html",
+      "oF" : 0
+    },
+    "\/includes\/contact-section.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/includes\/contact-section.html",
+      "oF" : 0
+    },
+    "\/includes\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/includes\/footer.html",
+      "oF" : 0
     },
     "\/includes\/head.kit" : {
       "cB" : 0,
@@ -369,7 +708,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 643357708.77944601
+    "lastBuiltDate" : 643553637.83650804
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
