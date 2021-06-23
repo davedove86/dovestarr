@@ -80,6 +80,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+  position: relative;
+  z-index: 2;
 }
 
 .navbar nav a {
@@ -103,6 +105,28 @@ header {
   position: relative;
 }
 
+/* Hero dark overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 2;
+}
+/* Hero background image */
+.heroBg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: cover;
+}
+
 header .arrow {
   position: absolute;
   margin-left: auto;
@@ -115,21 +139,16 @@ header .arrow {
 }
 
 .hero-flex {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   height: 100%;
-}
-
-/* Hero images */
-.home {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/img/hero/home-hero.png) no-repeat center center;
-  background-size: cover;
+  z-index: 2;
 }
 
 .hero-text {
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .banner {
@@ -313,6 +332,11 @@ section {
   padding: 50px 0;
 }
 
+.dark-bg {
+  background-color: black;
+  color: white;
+}
+
 .container {
   max-width: 1160px;
   margin: 0 auto;
@@ -321,10 +345,11 @@ section {
 }
 
 .grid {
-  --gridCols: 2;
+  /* --gridCols: 2; */
   display: grid;
-  grid-template-columns: repeat(var(--gridCols), 1fr);
+  grid-template-columns: repeat(auto-fit, 25rem);
   grid-gap: 16px 16px;
+  justify-content: center;
 }
 
 .cols-3 {
@@ -347,9 +372,29 @@ section {
 
 .grid-images {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 16px 16px;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
+  grid-gap: 3px;
+  justify-content: center;
+}
+
+.grid-images img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.company-logo {
+  max-width: 300px;
 }
 
 .flex {
@@ -361,6 +406,11 @@ section {
 
 .flex-around {
   --justify-content: space-around;
+}
+
+.flex-item {
+  flex: 1;
+  margin: 16px;
 }
 
 .card {
@@ -404,9 +454,33 @@ section {
   max-width: 100%;
 }
 
-.gallery-image {
-  width: 300px;
-  height: 250px;
+.portfolio-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.portfolio-gallery img {
+  width: 200px;
+  margin: 6px;
+  border-radius: 3px;
+  box-shadow: var(--shadow-2);
+}
+
+.wonderlab-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wonderlab-images img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  margin: 6px;
+  border-radius: 3px;
+  box-shadow: var(--shadow-2);
 }
 
 .mb-30 {
@@ -415,6 +489,10 @@ section {
 
 .mb-50 {
   margin-bottom: 50px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .contact-item a {
@@ -432,10 +510,16 @@ section {
   font-size: var(--h5);
 }
 
+.contact-text {
+  margin-bottom: 12px;
+}
+
 form fieldset input,
 form fieldset textarea {
   border: 1px solid var(--grey);
   box-shadow: var(--shadow-2);
+  padding: 14px 20px 14px 5px;
+  width: 100%;
 }
 
 form fieldset input::placeholder,
@@ -447,8 +531,38 @@ form fieldset input {
   margin-bottom: 30px;
 }
 
+.services-image {
+  width: 400px;
+}
+
+.blue-section {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 0;
+}
+
+.smart-lighting-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.smart-lighting-grid div {
+  padding: 50px;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.smart-lighting-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Media Queries */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   h1 {
     font-size: var(--h3);
   }
@@ -474,25 +588,19 @@ form fieldset input {
     justify-content: space-around;
   }
 
-  .grid {
+  /* .grid {
     display: block;
-  }
+  } */
 
   .flex {
-    display: block;
+    flex-direction: column;
   }
 
   .none {
     display: none;
   }
-}
 
-@media only screen and (max-width: 768px) {
-  h1 {
-    font-size: var(--h4);
-  }
-
-  .hero-flex {
-    padding-top: 50px;
+  .smart-lighting-grid {
+    display: block;
   }
 }

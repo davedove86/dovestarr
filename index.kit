@@ -1,23 +1,17 @@
 <!-- $pageTitle = Home -->
 <!-- $pageDescription =  This is the page description -->
+<!-- $headerTitle =  Experts In All Things Electrical & Digital -->
+<!-- $headerKicker =  Please explore our services to discover how Dovestarr can transform your Home or Business -->
+<!-- $headerBgImg =  img/hero/home-hero.png -->
+<!-- $headerBgAlt =  London Bar Project -->
+
+
 
 
 <!-- @import "includes/head.kit" -->
 
   <body>
-    <!-- Header -->
-    <header class="home">
-      <!-- @import "includes/navigation.kit" -->
-      <div class="container hero-flex">
-        <div class="hero-text">
-          <h1>Experts In All Things Electrical & Digital</h1>
-          <p>Please explore our services to discover how Dovestarr can transform your Home or Business.</p>
-          <button>Our Services</button>
-          <button class="button-trans">Contact Us</button>
-        </div>
-      </div>
-      <img class="arrow" src="/img/arrow.svg" alt="Arrow Down">
-    </header>
+    <!-- @import "includes/header.kit" -->
 
     <!-- Company Banner -->
     <div class="banner">
@@ -32,12 +26,14 @@
       </div>
     </div>
     <main>
+
+      <!-- Services Section -->
       <section>
         <div class="container">
           <h2 class="text-center">Services</h2>
 
           <div class="grid col-2">
-            <a href="#">
+            <a href="creative-lab.html">
               <div class="card">
                 <img src="/img/home/lab-icon.svg" alt="Creative Lab Icon">
                 <h3>Creative Lab</h3>
@@ -45,7 +41,7 @@
               </div>
             </a>
 
-            <a href="#">
+            <a href="electricsanddata.html">
               <div class="card">
                 <img src="/img/home/data-icon.svg" alt="Electrics & Data Icon">
                 <h3>Electrics & Data</h3>
@@ -53,7 +49,7 @@
               </div>
             </a>
 
-            <a href="#">
+            <a href="smart-lighting.html">
               <div class="card">
                 <img src="/img/home/lighting-icon.svg" alt="Smart Lighting Icon">
                 <h3>Smart Lighting</h3>
@@ -73,16 +69,18 @@
         </div>
       </section>
 
+      <!-- Portfolio Section -->
       <section>
         <div class="container">
-          <h2 class="text-center">Portfolio</h2>
-          <div class="grid cols-3">
-            <img src="/img/home/portfolio-1.jpg" alt="">
-            <img src="/img/home/portfolio-2.jpg" alt="">
-            <img src="/img/home/portfolio-3.jpg" alt="">
-            <img src="/img/home/portfolio-4.jpg" alt="">
-            <img src="/img/home/portfolio-5.jpg" alt="">
-            <img src="/img/home/portfolio-6.jpg" alt="">
+          <h2 class="text-center mb-30">Portfolio</h2>
+          <!-- TODO review spacing -->
+          <div class="portfolio-gallery">
+            <img src="/img/home/portfolio-1.jpg" alt="Dovestarr portfolio image">
+            <img src="/img/home/portfolio-2.jpg" alt="Dovestarr portfolio image">
+            <img src="/img/home/portfolio-3.jpg" alt="Dovestarr portfolio image">
+            <img src="/img/home/portfolio-4.jpg" alt="Dovestarr portfolio image">
+            <img src="/img/home/portfolio-5.jpg" alt="Dovestarr portfolio image">
+            <img src="/img/home/portfolio-6.jpg" alt="Dovestarr portfolio image">
           </div>
           <div class="button-wrap">
             <a href="contact.html"><button>Contact Us</button></a>
@@ -90,17 +88,17 @@
         </div>
       </section>
 
+      <!-- Projects Section -->
       <section>
         <div class="container">
           <h2 class="text-center">Projects</h2>
           <p class="text-center">These are some of the recent projects that Dovestarr has delivered.</p>
-
           <!-- Disney Project -->
-          <div class="grid mb-50">
-            <div class="grid-item">
+          <div class="flex mb-50">
+            <div class="flex-item">
               <div class="logo-wrap">
                 <img src="/img/home/disney-logo.svg" alt="Disney Logo">
-                <img src="/img/home/gosh-logo.svg" alt="Great Ormand Street Hostpital Logo">
+                <img src="/img/home/gosh-logo.svg" alt="Great Ormand Street Hospital Logo">
               </div>
               <p>Dovestarr was approached to explore interactive solutions for the new Great Ormond Street Hospital (GOSH) Disney Reef Project.</p>
               <p>This ranged from Interactive games on multitouch screens in the digital aquarium.</p>
@@ -109,19 +107,20 @@
               <p>The video effects should be in synergy within the garden design but also allow for creative effects and a video player with content from Disney archives.</p>
               <a href="contact.html"><button>Contact Us</button></a>
             </div>
-            <div class="grid-item">
-              <div class="grid">
-                <img class="gallery-image" src="/img/home/disney-1.jpg" alt="Disney Project Image">
-                <img class="gallery-image" src="/img/home/disney-2.jpg" alt="Disney Project Image">
-                <img class="gallery-image" src="/img/home/disney-3.jpg" alt="Disney Project Image">
+            <div class="flex-item">
+              <div class="grid-images">
+                <img class="div1" src="/img/home/disney-1.jpg" alt="Disney Project Image">
+                <img class="div2" src="/img/home/disney-2.jpg" alt="Disney Project Image">
+                <img class="div3" src="/img/home/disney-3.jpg" alt="Disney Project Image">
               </div>
             </div>
           </div>
 
           <!-- Wonderlab Project -->
-          <div class="grid mb-50">
+          <div class="flex mb-50">
             <div class="grid-item">
-              <div class="grid">
+              <div class="wonderlab-images">
+                <!-- TODO review responsive grid -->
                 <img class="gallery-image" src="/img/home/wonderlab-1.jpg" alt="Wonderlab Project Image">
                 <img class="gallery-image" src="/img/home/wonderlab-2.jpg" alt="Wonderlab Project Image">
                 <img class="gallery-image" src="/img/home/wonderlab-3.jpg" alt="Wonderlab Project Image">
@@ -130,7 +129,7 @@
             </div>
             <div class="grid-item">
               <div class="logo-wrap">
-                <img src="/img/home/wonderlab-logo.svg" alt="The Wonderlab Logo">
+                <img class="company-logo" src="/img/home/wonderlab-logo.svg" alt="The Wonderlab Logo">
               </div>
               <p>Working alongside ROAR creativity based in Camden London who designed the concept, we carried out the Electrical installation to all elements required in this project.</p>
               <p>Cleaver use of vintage lighting alongside its Victorian feel gave it its wow factor to this very successful business.</p>

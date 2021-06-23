@@ -7,7 +7,7 @@
       "uuidString" : "C90E703C-02C0-4FD2-84F6-DDF835504457"
     }
   ],
-  "creatorBuild" : "34018",
+  "creatorBuild" : "34127",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -72,6 +72,22 @@
       "oAP" : "\/dist\/browserconfig.xml",
       "oF" : 0
     },
+    "\/contact.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/contact.html",
+      "oF" : 0
+    },
+    "\/creative-lab.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/creative-lab.html",
+      "oF" : 0
+    },
     "\/css\/main.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -112,6 +128,14 @@
       "ft" : 65536,
       "oA" : 1,
       "oAP" : "\/dist\/dist",
+      "oF" : 0
+    },
+    "\/electricsanddata.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/electricsanddata.html",
       "oF" : 0
     },
     "\/favicon-16x16.png" : {
@@ -166,6 +190,153 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/contact.jpg" : {
+      "ft" : 16384,
+      "iS" : 813884,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/contact.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/creative-lab\/creative-lab-hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 1066934,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/creative-lab\/creative-lab-hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/creative-lab\/crown-estate-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/creative-lab\/crown-estate-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/creative-lab\/dinsey-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 27107,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/creative-lab\/dinsey-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/creative-lab\/dinsey-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 26293,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/creative-lab\/dinsey-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/creative-lab\/dinsey-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 27016,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/creative-lab\/dinsey-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/creative-lab\/dinsey-4.jpg" : {
+      "ft" : 16384,
+      "iS" : 27442,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/creative-lab\/dinsey-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/creative-lab\/disney-large.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/creative-lab\/disney-large.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/creative-lab\/mandrake-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 87851,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/creative-lab\/mandrake-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/creative-lab\/mandrake-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 106550,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/creative-lab\/mandrake-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/creative-lab\/mandrake-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 144437,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/creative-lab\/mandrake-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/creative-lab\/mandrake-sm.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/img\/creative-lab\/mandrake-sm.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/disney-sm.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -175,6 +346,58 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/img\/electrics\/electrics-hero.jpeg" : {
+      "ft" : 16384,
+      "iS" : 191116,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/electrics\/electrics-hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/electrics\/fuseboard-upgrades.jpg" : {
+      "ft" : 16384,
+      "iS" : 180900,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/electrics\/fuseboard-upgrades.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/electrics\/new-builds.jpg" : {
+      "ft" : 16384,
+      "iS" : 1559196,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/electrics\/new-builds.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/electrics\/re-wires.jpg" : {
+      "ft" : 16384,
+      "iS" : 36785,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/electrics\/re-wires.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/img\/google-sm.svg" : {
       "ft" : 2097152,
@@ -348,11 +571,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/img\/home\/NICEIC.svg" : {
+    "\/img\/home\/niceic.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/img\/home\/NICEIC.svg",
+      "oAP" : "\/dist\/img\/home\/niceic.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -548,6 +771,84 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/smart-lighting\/aone-app.jpg" : {
+      "ft" : 16384,
+      "iS" : 207357,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/smart-lighting\/aone-app.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/smart-lighting\/mood.jpg" : {
+      "ft" : 16384,
+      "iS" : 177663,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/smart-lighting\/mood.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/smart-lighting\/scenes.jpg" : {
+      "ft" : 16384,
+      "iS" : 834251,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/smart-lighting\/scenes.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/smart-lighting\/schedule-lighting.jpg" : {
+      "ft" : 16384,
+      "iS" : 1006289,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/smart-lighting\/schedule-lighting.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/smart-lighting\/smart-lighting bg.jpg" : {
+      "ft" : 16384,
+      "iS" : 928024,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/smart-lighting\/smart-lighting bg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/smart-lighting\/smart-lighting-bg-2x.jpg" : {
+      "ft" : 16384,
+      "iS" : 3301790,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/smart-lighting\/smart-lighting-bg-2x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/includes\/certificate-banner.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -579,6 +880,14 @@
       "oA" : 1,
       "oAP" : "\/dist\/includes\/head.html",
       "oF" : 1
+    },
+    "\/includes\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/includes\/header.html",
+      "oF" : 0
     },
     "\/includes\/navigation.kit" : {
       "cB" : 0,
@@ -694,6 +1003,14 @@
       "oA" : 0,
       "oAP" : "\/dist\/site.webmanifest",
       "oF" : 0
+    },
+    "\/smart-lighting.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/smart-lighting.html",
+      "oF" : 0
     }
   },
   "hooks" : [
@@ -708,7 +1025,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 643553637.83650804
+    "lastBuiltDate" : 646176811.76882505
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -2740,27 +3057,30 @@
 
       ],
       "contentEntries" : [
-        "!(node_modules)\/**\/*.html",
-        "!(node_modules)\/**\/*.htm",
-        "!(node_modules)\/**\/*.shtml",
-        "!(node_modules)\/**\/*.xhtml",
-        "!(node_modules)\/**\/*.php",
-        "!(node_modules)\/**\/*.js",
-        "!(node_modules)\/**\/*.ts",
-        "!(node_modules)\/**\/*.coffee",
-        "!(node_modules)\/**\/*.erb",
-        "!(node_modules)\/**\/*.pug",
-        "!(node_modules)\/**\/*.jade",
-        "!(node_modules)\/**\/*.slim",
-        "!(node_modules)\/**\/*.haml",
-        "!(node_modules)\/**\/*.md",
-        "!(node_modules)\/**\/*.kit"
+        "**\/*.html",
+        "**\/*.htm",
+        "**\/*.shtml",
+        "**\/*.xhtml",
+        "**\/*.php",
+        "**\/*.js",
+        "**\/*.ts",
+        "**\/*.coffee",
+        "**\/*.erb",
+        "**\/*.pug",
+        "**\/*.jade",
+        "**\/*.slim",
+        "**\/*.haml",
+        "**\/*.md",
+        "**\/*.kit"
       ],
       "removeFontFace" : 0,
       "removeKeyframes" : 0,
       "removeVariables" : 0,
       "safelistEntries" : [
 
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -2795,6 +3115,7 @@
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
