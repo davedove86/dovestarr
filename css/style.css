@@ -98,6 +98,10 @@ body {
   margin-left: 26px;
 }
 
+.no-underline a:hover {
+  border-bottom: none;
+}
+
 /* Hero styles */
 header {
   height: 800px;
