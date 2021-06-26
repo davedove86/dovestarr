@@ -77,11 +77,12 @@ body {
   color: white;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
   position: relative;
-  z-index: 2;
+  z-index: 5;
 }
 
 .navbar nav a {
@@ -89,17 +90,62 @@ body {
   text-decoration: none;
 }
 
-.navbar a:hover {
+.navbar nav a:hover {
   border-bottom: solid 2px var(--primary);
 }
 
-/* + adds styles thats next to or proceded by the same element */
-.navbar nav a + a {
-  margin-left: 26px;
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
 }
 
-.no-underline a:hover {
-  border-bottom: none;
+nav ul li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #000000;
+  display: block;
+}
+
+/* Hide Dropdown by Default */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+
+/* Display Dropdown on Hover */
+nav ul li:hover > ul {
+  display: block;
+}
+
+/* Dropdown */
+nav ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+  background-color: black;
+  padding: 0 10px 0 0;
+}
+
+/* Change this in order to change the Dropdown symbol */
+li > a:after {
+  content: " +";
+}
+li > a:only-child:after {
+  content: "";
 }
 
 /* Hero styles */
@@ -539,6 +585,8 @@ form fieldset input {
   width: 400px;
 }
 
+/* Smart Lighting Page Styles */
+
 .blue-section {
   background-color: var(--blue);
   color: var(--white);
@@ -565,10 +613,56 @@ form fieldset input {
   object-fit: cover;
 }
 
+/* Electrics & Data Page Styles */
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
+
+.full-width {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  text-align: center;
+}
+
+.full-width img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+.full-width h2 {
+  color: white;
+  position: absolute;
+  z-index: 2;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 2;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 800px) {
   h1 {
     font-size: var(--h3);
+  }
+
+  .navbar {
+    justify-content: space-around;
   }
 
   header {

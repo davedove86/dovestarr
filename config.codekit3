@@ -17,6 +17,14 @@
       "oAP" : "\/dist\/.gitignore",
       "oF" : 0
     },
+    "\/.vscode\/settings.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/dist\/.vscode\/settings-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/404.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -347,6 +355,45 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/electrics\/data-networking.jpg" : {
+      "ft" : 16384,
+      "iS" : 293801,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/electrics\/data-networking.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/electrics\/Electric-underfloor-heating.jpg" : {
+      "ft" : 16384,
+      "iS" : 103953,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/electrics\/Electric-underfloor-heating.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/electrics\/Electrical-maintenance.jpg" : {
+      "ft" : 16384,
+      "iS" : 94325,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/electrics\/Electrical-maintenance.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/electrics\/electrics-hero.jpeg" : {
       "ft" : 16384,
       "iS" : 191116,
@@ -392,6 +439,45 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/img\/electrics\/re-wires.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/electrics\/smart-heating-controls.jpg" : {
+      "ft" : 16384,
+      "iS" : 47608,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/electrics\/smart-heating-controls.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/electrics\/test-and-inspection.jpg" : {
+      "ft" : 16384,
+      "iS" : 98044,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/electrics\/test-and-inspection.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/electrics\/WiFI.jpeg" : {
+      "ft" : 16384,
+      "iS" : 78929,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/electrics\/WiFI.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -849,6 +935,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/smart-security\/smart-security-bg.jpg" : {
+      "ft" : 16384,
+      "iS" : 995272,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/smart-security\/smart-security-bg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/includes\/certificate-banner.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1011,6 +1110,14 @@
       "oA" : 0,
       "oAP" : "\/dist\/smart-lighting.html",
       "oF" : 0
+    },
+    "\/smart-security.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/smart-security.html",
+      "oF" : 0
     }
   },
   "hooks" : [
@@ -1025,7 +1132,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 646230182.28701496
+    "lastBuiltDate" : 646394937.84586895
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
