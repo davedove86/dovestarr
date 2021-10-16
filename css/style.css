@@ -72,7 +72,7 @@ body {
   line-height: 1.75;
 }
 
-/* Navigation */
+/* Navigation Styles */
 .navbar {
   color: white;
   width: 100%;
@@ -91,7 +91,8 @@ body {
 }
 
 .navbar nav a:hover {
-  border-bottom: solid 2px var(--primary);
+  font-weight: bold;
+  color: var(--darkBlue);
 }
 
 nav ul {
@@ -114,7 +115,6 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #000000;
   display: block;
 }
 
@@ -128,24 +128,27 @@ nav ul ul {
 /* Display Dropdown on Hover */
 nav ul li:hover > ul {
   display: block;
+  border-radius: 10px;
+}
+/* TODO add arrow interaction on hover */
+
+.arrow-icon {
+  width: 12px;
 }
 
 /* Dropdown */
 nav ul ul li {
-  width: 170px;
+  width: 15rem;
   float: none;
   display: list-item;
   position: relative;
-  background-color: black;
-  padding: 0 10px 0 0;
+  background-color: rgba(0, 0, 0, 0.625);
+  padding: 10px 10px 10px 0;
 }
 
-/* Change this in order to change the Dropdown symbol */
-li > a:after {
-  content: " +";
-}
-li > a:only-child:after {
-  content: "";
+nav ul ul li a img {
+  width: 3rem;
+  margin-right: 0.8rem;
 }
 
 /* Hero styles */
@@ -201,12 +204,11 @@ header .arrow {
   max-width: 600px;
 }
 
+/* Company Banner */
 .banner {
-  /* width: 100%; */
   box-shadow: var(--shadow-2);
 }
 
-/* Company Banner */
 .banner-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -215,11 +217,19 @@ header .arrow {
   padding: 16px 0;
 }
 
+/* Footer */
+
 footer {
   --footerTextColor: var(--lightGrey);
   color: var(--footerTextColor);
   background: var(--footerBackground);
   padding: 50px 0;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 footer img {
@@ -249,6 +259,8 @@ footer p {
   margin-bottom: 0;
   max-width: none;
 }
+
+/* Type */
 
 a {
   text-decoration: none;
@@ -376,6 +388,30 @@ button:hover {
   border: 2px solid var(--white);
 }
 
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
 /* Layout Components */
 
 section {
@@ -387,6 +423,22 @@ section {
   color: white;
 }
 
+.white-bg {
+  background-color: var(--white);
+}
+
+.fire-alarm-bg {
+  background-image: url("/img/smart-security/fire-section-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .container {
   max-width: 1160px;
   margin: 0 auto;
@@ -394,8 +446,36 @@ section {
   padding-right: 16px;
 }
 
+.center {
+  text-align: center;
+}
+
+.center p {
+  text-align: left;
+  margin: 12px auto;
+}
+
+.center ul {
+  display: inline-block;
+  text-align: left;
+  padding-left: 140px;
+}
+
+.center img {
+  display: block;
+  margin: 2rem auto;
+}
+
 .grid {
-  /* --gridCols: 2; */
+  display: grid;
+  grid-auto-flow: row;
+}
+
+.grid-item {
+  padding: 1rem 0;
+}
+
+.grid-col-2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, 25rem);
   grid-gap: 16px 16px;
@@ -423,7 +503,6 @@ section {
 .grid-images {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-template-rows: repeat(2, 1fr); */
   grid-gap: 3px;
   justify-content: center;
 }
@@ -433,13 +512,13 @@ section {
   border-radius: 3px;
 }
 
-.div1 {
+.grid-area-1 {
   grid-area: 1 / 1 / 2 / 2;
 }
-.div2 {
+.grid-area-2 {
   grid-area: 1 / 2 / 2 / 3;
 }
-.div3 {
+.grid-area-3 {
   grid-area: 2 / 1 / 3 / 3;
 }
 
@@ -463,6 +542,17 @@ section {
   margin: 16px;
 }
 
+.icon-wrap {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.icon-wrap img {
+  margin-right: 12px;
+}
+
 .card {
   padding: 2em;
   background: var(--cardBg);
@@ -473,18 +563,23 @@ section {
   height: 100%;
   transition: all 0.3s ease-in;
 }
+.services-card {
+  padding: 2em;
+  background: var(--cardBg);
+  box-shadow: var(--shadow-3);
+  border-radius: var(--borderRadius);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: all 0.3s ease-in;
+}
 
-.card:hover {
+.services-card:hover {
   background-color: var(--blue);
   color: var(--white);
 }
 
-.grid-item:hover {
-  background-color: inherit;
-  color: inherit;
-}
-
-.card img {
+.services-card img {
   width: 100px;
 }
 
@@ -500,7 +595,6 @@ section {
 
 .text-center {
   text-align: center;
-  margin: 0 auto;
   max-width: 100%;
 }
 
@@ -513,7 +607,7 @@ section {
 }
 
 .portfolio-gallery img {
-  width: 200px;
+  width: 250px;
   margin: 6px;
   border-radius: 3px;
   box-shadow: var(--shadow-2);
@@ -531,18 +625,6 @@ section {
   margin: 6px;
   border-radius: 3px;
   box-shadow: var(--shadow-2);
-}
-
-.mb-30 {
-  margin-bottom: 30px;
-}
-
-.mb-50 {
-  margin-bottom: 50px;
-}
-
-.mb-100 {
-  margin-bottom: 100px;
 }
 
 .contact-item a {
@@ -563,6 +645,8 @@ section {
 .contact-text {
   margin-bottom: 12px;
 }
+
+/* Forms */
 
 form fieldset input,
 form fieldset textarea {
@@ -585,12 +669,20 @@ form fieldset input {
   width: 400px;
 }
 
+/* PAGE STYLES */
+
 /* Smart Lighting Page Styles */
 
 .blue-section {
   background-color: var(--blue);
   color: var(--white);
   padding: 0;
+}
+
+.blue-section-padding {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 50px 0;
 }
 
 .smart-lighting-grid {
@@ -614,11 +706,14 @@ form fieldset input {
 }
 
 /* Electrics & Data Page Styles */
+
+/* No margin on section */
 .no-margin {
   margin: 0;
   padding: 0;
 }
 
+/* Full width services */
 .full-width {
   width: 100%;
   height: 300px;
@@ -655,14 +750,21 @@ form fieldset input {
   z-index: 2;
 }
 
+/* Smart Security */
+.image-small {
+  width: 12rem;
+}
+
 /* Media Queries */
+
+@media only screen and (min-width: 60em) {
+  .grid {
+    grid-auto-flow: column;
+  }
+}
 @media only screen and (max-width: 800px) {
   h1 {
     font-size: var(--h3);
-  }
-
-  .navbar {
-    justify-content: space-around;
   }
 
   header {
@@ -686,10 +788,6 @@ form fieldset input {
     justify-content: space-around;
   }
 
-  /* .grid {
-    display: block;
-  } */
-
   .flex {
     flex-direction: column;
   }
@@ -700,5 +798,24 @@ form fieldset input {
 
   .smart-lighting-grid {
     display: block;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .footer-item {
+    margin-bottom: 30px;
+  }
+
+  .center ul {
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .navbar {
+    display: block;
+    text-align: center;
   }
 }

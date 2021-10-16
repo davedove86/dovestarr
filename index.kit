@@ -32,9 +32,9 @@
         <div class="container">
           <h2 class="text-center">Services</h2>
 
-          <div class="grid col-2">
+          <div class="grid-col-2">
             <a href="creative-lab.html">
-              <div class="card">
+              <div class="services-card animate__animated animate__fadeInUp">
                 <img src="/img/home/lab-icon.svg" alt="Creative Lab Icon">
                 <h3>Creative Lab</h3>
                 <p>We create bespoke Interactive and Visual solutions for clients that want to engage with their customers in a way never imagined before.</p>
@@ -42,7 +42,7 @@
             </a>
 
             <a href="electricsanddata.html">
-              <div class="card">
+              <div class="services-card animate__animated animate__fadeInUp">
                 <img src="/img/home/data-icon.svg" alt="Electrics & Data Icon">
                 <h3>Electrics & Data</h3>
                 <p>We are NICEIC approved electrical installation company for all your Commercial and domestic requirements in this ever changing digital world.</p>
@@ -50,7 +50,7 @@
             </a>
 
             <a href="smart-lighting.html">
-              <div class="card">
+              <div class="services-card animate__animated animate__fadeInUp">
                 <img src="/img/home/lighting-icon.svg" alt="Smart Lighting Icon">
                 <h3>Smart Lighting</h3>
                 <p>Set your scenes, Create your mood, advance lighting and control from the wall, app or voice.</p>
@@ -58,7 +58,7 @@
             </a>
 
             <a href="smart-security.html">
-              <div class="card">
+              <div class="services-card animate__animated animate__fadeInUp">
                 <img src="/img/home/security-icon.svg" alt="Smart Security Icon">
                 <h3>Smart Security</h3>
                 <p>We provide cost effective advanced security solutions installations for Intruder Alarms, Fire, CCTV, access control and door entry systems.</p>
@@ -74,6 +74,7 @@
         <div class="container">
           <h2 class="text-center mb-30">Portfolio</h2>
           <!-- TODO review spacing -->
+          <!-- TODO Add lightbox effects -->
           <div class="portfolio-gallery">
             <img src="/img/home/portfolio-1.jpg" alt="Dovestarr portfolio image">
             <img src="/img/home/portfolio-2.jpg" alt="Dovestarr portfolio image">
@@ -94,7 +95,7 @@
           <h2 class="text-center">Projects</h2>
           <p class="text-center">These are some of the recent projects that Dovestarr has delivered.</p>
           <!-- Disney Project -->
-          <div class="flex mb-50">
+          <div class="grid mb-50">
             <div class="flex-item">
               <div class="logo-wrap">
                 <img src="/img/home/disney-logo.svg" alt="Disney Logo">
@@ -109,31 +110,28 @@
             </div>
             <div class="flex-item">
               <div class="grid-images">
-                <img class="div1" src="/img/home/disney-1.jpg" alt="Disney Project Image">
-                <img class="div2" src="/img/home/disney-2.jpg" alt="Disney Project Image">
-                <img class="div3" src="/img/home/disney-3.jpg" alt="Disney Project Image">
+                <img class="grid-area-1" src="/img/home/disney-1.jpg" alt="Disney Project Image">
+                <img class="grid-area-2" src="/img/home/disney-2.jpg" alt="Disney Project Image">
+                <img class="grid-area-3" src="/img/home/disney-3.jpg" alt="Disney Project Image">
               </div>
             </div>
           </div>
 
           <!-- Wonderlab Project -->
           <div class="flex mb-50">
-            <div class="grid-item">
-              <div class="wonderlab-images">
-                <!-- TODO review responsive grid -->
-                <img class="gallery-image" src="/img/home/wonderlab-1.jpg" alt="Wonderlab Project Image">
-                <img class="gallery-image" src="/img/home/wonderlab-2.jpg" alt="Wonderlab Project Image">
-                <img class="gallery-image" src="/img/home/wonderlab-3.jpg" alt="Wonderlab Project Image">
-                <img class="gallery-image" src="/img/home/wonderlab-4.jpg" alt="Wonderlab Project Image">
+            <div class="flex-item">
+              <div class="grid-images">
+                <img class="grid-area-1" src="/img/home/wonderlab-4.jpg" alt="Wonderlab Project Image">
+                <img class="grid-area-2" src="/img/home/wonderlab-2.jpg" alt="Wonderlab Project Image">
+                <img class="grid-area-3" src="/img/home/wonderlab-1.jpg" alt="Wonderlab Project Image">
               </div>
             </div>
-            <div class="grid-item">
+            <div class="flex-item">
               <div class="logo-wrap">
-                <img class="company-logo" src="/img/home/wonderlab-logo.svg" alt="The Wonderlab Logo">
+                <img src="/img/home/wonderlab-logo.svg" alt="The Wonderlab Logo">
               </div>
               <p>Working alongside ROAR creativity based in Camden London who designed the concept, we carried out the Electrical installation to all elements required in this project.</p>
               <p>Cleaver use of vintage lighting alongside its Victorian feel gave it its wow factor to this very successful business.</p>
-
               <a href="contact.html"><button>Contact Us</button></a>
             </div>
           </div>
@@ -149,23 +147,5 @@
 
     <!-- @import "includes/footer.kit" -->
 
-
-    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-      window.ga = function () {
-        ga.q.push(arguments);
-      };
-      ga.q = [];
-      ga.l = +new Date();
-      ga("create", "UA-XXXXX-Y", "auto");
-      ga("set", "anonymizeIp", true);
-      ga("set", "transport", "beacon");
-      ga("send", "pageview");
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
   </body>
 </html>
