@@ -4,13 +4,13 @@
   /* Define Colors as colors */
   --blue: #0093dd;
   --darkBlue: #0083c4;
-  --green: #00ebc7;
+  --green: #fcfcfc;
   --red: #ff5470;
   --yellow: #fde24f;
   --black: #1b2d45;
   --grey: #bfbfbf;
   --darkGrey: #222;
-  --lightGrey: #f2f4f6;
+  --lightGrey: #fafafa;
   --white: #fff;
 
   /* Define Color Intentions */
@@ -130,7 +130,6 @@ nav ul li:hover > ul {
   display: block;
   border-radius: 10px;
 }
-/* TODO add arrow interaction on hover */
 
 .arrow-icon {
   width: 12px;
