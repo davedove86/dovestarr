@@ -29,7 +29,8 @@
   /* Type */
   --headingFont: "Roboto", sans-serif;
   --bodyFont: "Roboto", sans-serif;
-  --baseFontSize: 112.5%; /* 18px */
+  --baseFontSize: 112.5%;
+  /* 18px */
   --h1: 3.052rem;
   --h2: 2.441rem;
   --h3: 1.953rem;
@@ -126,7 +127,7 @@ nav ul ul {
 }
 
 /* Display Dropdown on Hover */
-nav ul li:hover > ul {
+nav ul li:hover>ul {
   display: block;
   border-radius: 10px;
 }
@@ -168,6 +169,7 @@ header {
   opacity: 0.5;
   z-index: 2;
 }
+
 /* Hero background image */
 .heroBg img {
   position: absolute;
@@ -208,12 +210,17 @@ header .arrow {
   box-shadow: var(--shadow-2);
 }
 
+
 .banner-wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   padding: 16px 0;
+}
+
+.cert-banner img {
+  height: 80px;
 }
 
 /* Footer */
@@ -514,9 +521,11 @@ section {
 .grid-area-1 {
   grid-area: 1 / 1 / 2 / 2;
 }
+
 .grid-area-2 {
   grid-area: 1 / 2 / 2 / 3;
 }
+
 .grid-area-3 {
   grid-area: 2 / 1 / 3 / 3;
 }
@@ -562,6 +571,7 @@ section {
   height: 100%;
   transition: all 0.3s ease-in;
 }
+
 .services-card {
   padding: 2em;
   background: var(--cardBg);
@@ -583,12 +593,12 @@ section {
 }
 
 /* First item will never have margin top */
-.card > *:first-child {
+.card>*:first-child {
   margin-top: 0;
 }
 
 /* last item will never have margin bottom */
-.card > *:last-child {
+.card>*:last-child {
   margin-bottom: 0;
 }
 
@@ -768,6 +778,7 @@ form fieldset input {
     grid-auto-flow: column;
   }
 }
+
 @media only screen and (max-width: 800px) {
   h1 {
     font-size: var(--h3);
